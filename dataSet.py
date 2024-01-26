@@ -28,5 +28,5 @@ def examine(gene):
     for i in range(3):
         print("cluster", i)
         for j in range(3):
-            print(cat[i].count(j), end=" ")
+            print("From Class " + j + " : " + cat[i].count(j), end=" ")
         print('\n')
